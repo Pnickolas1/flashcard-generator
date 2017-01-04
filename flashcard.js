@@ -14,7 +14,7 @@ function flashCard() {
 			name: 'back',
 			message: 'Enter back of card: '
 		}]).then(function(answers){
-			var basicFlashCard = new basicFlashCard(answers.front, answers.back);
+			var basicFlashCard = new BasicFlashcard(answers.front, answers.back);
 			basicFlashCard.save();
 		});
 	} else if (command === 'cloze'){
@@ -27,7 +27,7 @@ function flashCard() {
 		}]).then(function(answers){
 			var search = answers.text.search(answers.cloze);
 			var substring = answers.text.substring(0,search) + '________' + answers.text.substring(search + answers.cloze.length);
-			var clozeFlashCard = new clozeFlashCard(substring, answers.cloze);
+			var clozeFlashCard = new ClozeFlashcard(substring, answers.cloze);
 			clozeFlashCard.save();
 		});
 	} else if(command === 'show'){

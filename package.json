@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Pnickolas1/flashcard-generator#readme",
   "dependencies": {
+    "ds-store": "^0.1.6",
     "inquirer": "^2.0.0"
   }
 }
