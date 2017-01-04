@@ -1,0 +1,26 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "flashcard generator",
+  "main": "flashcard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pnickolas1/flashcard-generator.git"
+  },
+  "keywords": [
+    "node.js",
+    "node"
+  ],
+  "author": "Peter Tountas Jr #4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pnickolas1/flashcard-generator/issues"
+  },
+  "homepage": "https://github.com/Pnickolas1/flashcard-generator#readme",
+  "dependencies": {
+    "inquirer": "^2.0.0"
+  }
+}
